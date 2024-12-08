@@ -1,0 +1,41 @@
+<!-- Assignment 9: CSS Advanced Essentials -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form and Dropdown Menu</title>
+</head>
+<body>
+    <!-- Form Section -->
+    <div class="form-container">
+        <form action="#" method="post">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Your name.." required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Your last name.." required>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Dropdown Section -->
+    <div class="dropdown-container">
+        <button class="dropdown-button">Dropdown</button>
+        <div class="dropdown-menu">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</body>
+</html>
